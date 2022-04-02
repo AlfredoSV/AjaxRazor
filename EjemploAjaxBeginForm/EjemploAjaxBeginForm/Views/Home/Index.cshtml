@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Calcular factorial desde servidor</h2>
+        @using (Ajax.BeginForm("CalcularFactorial", new AjaxOptions()
+        {
+            HttpMethod = "Post",
+            InsertionMode = InsertionMode.Replace,
+            UpdateTargetId = "resultadoFactorial"
+        }))
+        {
+            <input type="number" class="form-control" name="numero" />
+            <br />
+            <input type="submit" class="btn btn-success" />
+
+        }
+        <p>Resultado</p><span class="text-danger" id="resultadoFactorial"></span>
+
+
+    </div>
+
+</div>
