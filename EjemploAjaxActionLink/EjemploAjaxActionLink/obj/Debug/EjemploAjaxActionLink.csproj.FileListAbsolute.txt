@@ -79,8 +79,8 @@ C:\Users\Alfredo\Desktop\AjaxRazor\EjemploAjaxActionLink\EjemploAjaxActionLink\b
 C:\Users\Alfredo\Desktop\AjaxRazor\EjemploAjaxActionLink\EjemploAjaxActionLink\bin\es\System.Web.WebPages.resources.dll
 C:\Users\Alfredo\Desktop\AjaxRazor\EjemploAjaxActionLink\EjemploAjaxActionLink\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Alfredo\Desktop\AjaxRazor\EjemploAjaxActionLink\EjemploAjaxActionLink\bin\es\System.Web.WebPages.Razor.resources.dll
-C:\Users\Alfredo\Desktop\AjaxRazor\EjemploAjaxActionLink\EjemploAjaxActionLink\obj\Debug\EjemploAjaxActionLink.csproj.AssemblyReference.cache
 C:\Users\Alfredo\Desktop\AjaxRazor\EjemploAjaxActionLink\EjemploAjaxActionLink\obj\Debug\EjemploAjaxActionLink.csproj.CoreCompileInputs.cache
 C:\Users\Alfredo\Desktop\AjaxRazor\EjemploAjaxActionLink\EjemploAjaxActionLink\obj\Debug\EjemploAjaxActionLink.csproj.CopyComplete
 C:\Users\Alfredo\Desktop\AjaxRazor\EjemploAjaxActionLink\EjemploAjaxActionLink\obj\Debug\EjemploAjaxActionLink.dll
 C:\Users\Alfredo\Desktop\AjaxRazor\EjemploAjaxActionLink\EjemploAjaxActionLink\obj\Debug\EjemploAjaxActionLink.pdb
+C:\Users\Alfredo\Desktop\AjaxRazor\EjemploAjaxActionLink\EjemploAjaxActionLink\obj\Debug\EjemploAjaxActionLink.csprojAssemblyReference.cache

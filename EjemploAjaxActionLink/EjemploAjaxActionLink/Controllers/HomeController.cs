@@ -40,6 +40,18 @@ namespace EjemploAjaxActionLink.Controllers
         {
             return PartialView("_consultarDetalleUsuario", (_usuarios.Where(u => u.IdUsuario == idUsuario).FirstOrDefault()));
         }
+        [HttpGet]
+        public PartialViewResult EditarUsuario(Guid idUsuario)
+        {
+            return PartialView("_editarUsuario", (_usuarios.Where(u => u.IdUsuario == idUsuario).FirstOrDefault()));
+        }
+        [HttpPost]
+        public Boolean GuardarUsuarioEditado(DtoUsuario dtoUsuario)
+        {
+            if (!ModelState.IsValid)
+                return false;
+            return true;
+        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";

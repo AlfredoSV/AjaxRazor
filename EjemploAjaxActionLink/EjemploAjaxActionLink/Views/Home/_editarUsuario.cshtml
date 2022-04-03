@@ -1,0 +1,18 @@
+﻿@model EjemploAjaxActionLink.Models.DtoUsuario
+
+
+@using (Ajax.BeginForm("GuardarUsuarioEditado",new AjaxOptions()
+{
+    HttpMethod = "Post",
+    InsertionMode = InsertionMode.Replace,
+    UpdateTargetId = "usuarioeditado"
+}))
+{
+    @Html.TextBoxFor(x => x.Usuario, new { @class = "form-control" })
+    <br />
+    @Html.TextBoxFor(x => x.FechaAlta, new { @class = "form-control" })
+    <br />
+    
+    <input type="submit" class="btn btn-success" />
+}
+<span id="usuarioeditado"></span>
