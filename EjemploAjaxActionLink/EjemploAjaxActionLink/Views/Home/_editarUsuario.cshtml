@@ -1,4 +1,4 @@
-﻿@model EjemploAjaxActionLink.Models.DtoUsuario
+﻿@model EjemploAjaxActionLink.Models.UsuarioViewModel
 
 
 @using (Ajax.BeginForm("GuardarUsuarioEditado",new AjaxOptions()
@@ -10,9 +10,10 @@
 {
     @Html.TextBoxFor(x => x.Usuario, new { @class = "form-control" })
     <br />
-    @Html.TextBoxFor(x => x.FechaAlta, new { @class = "form-control" })
+    @Html.TextBoxFor(x => x.FechaAlta, new { @class = "form-control", @type = "date", @Value = Model.FechaAlta.ToString("yyyy-MM-dd") })
     <br />
     
     <input type="submit" class="btn btn-success" />
 }
-<span id="usuarioeditado"></span>
+<br />
+<span id="usuarioeditado" class="alert-success"></span>

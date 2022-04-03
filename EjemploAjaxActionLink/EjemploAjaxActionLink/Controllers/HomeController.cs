@@ -43,14 +43,15 @@ namespace EjemploAjaxActionLink.Controllers
         [HttpGet]
         public PartialViewResult EditarUsuario(Guid idUsuario)
         {
-            return PartialView("_editarUsuario", (_usuarios.Where(u => u.IdUsuario == idUsuario).FirstOrDefault()));
+            var usuario = (_usuarios.Where(u => u.IdUsuario == idUsuario).FirstOrDefault());
+            return PartialView("_editarUsuario",new UsuarioViewModel() { IdUsuario = usuario.IdUsuario,Usuario =usuario.Usuario,FechaAlta = usuario.FechaAlta } );
         }
         [HttpPost]
-        public Boolean GuardarUsuarioEditado(DtoUsuario dtoUsuario)
+        public string GuardarUsuarioEditado(UsuarioViewModel dtoUsuario)
         {
             if (!ModelState.IsValid)
-                return false;
-            return true;
+                return "";
+            return "El usuario se edito correctamente.";
         }
         public ActionResult Contact()
         {
