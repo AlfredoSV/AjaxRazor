@@ -49,9 +49,9 @@ namespace EjemploAjaxActionLink.Controllers
         [HttpPost]
         public string GuardarUsuarioEditado(UsuarioViewModel dtoUsuario)
         {
-            if (!ModelState.IsValid)
-                return "";
-            return "El usuario se edito correctamente.";
+            if (ModelState.IsValid)
+                return "El usuario se edito correctamente.";
+            return "Modelo incorrecto";
         }
         public ActionResult Contact()
         {

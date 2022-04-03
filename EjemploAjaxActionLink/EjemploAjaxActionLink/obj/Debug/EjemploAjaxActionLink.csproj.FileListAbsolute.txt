@@ -83,4 +83,4 @@ C:\Users\Alfredo\Desktop\AjaxRazor\EjemploAjaxActionLink\EjemploAjaxActionLink\o
 C:\Users\Alfredo\Desktop\AjaxRazor\EjemploAjaxActionLink\EjemploAjaxActionLink\obj\Debug\EjemploAjaxActionLink.csproj.CopyComplete
 C:\Users\Alfredo\Desktop\AjaxRazor\EjemploAjaxActionLink\EjemploAjaxActionLink\obj\Debug\EjemploAjaxActionLink.dll
 C:\Users\Alfredo\Desktop\AjaxRazor\EjemploAjaxActionLink\EjemploAjaxActionLink\obj\Debug\EjemploAjaxActionLink.pdb
-C:\Users\Alfredo\Desktop\AjaxRazor\EjemploAjaxActionLink\EjemploAjaxActionLink\obj\Debug\EjemploAjaxActionLink.csprojAssemblyReference.cache
+C:\Users\Alfredo\Desktop\AjaxRazor\EjemploAjaxActionLink\EjemploAjaxActionLink\obj\Debug\EjemploAjaxActionLink.csproj.AssemblyReference.cache

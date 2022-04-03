@@ -9,7 +9,11 @@ namespace EjemploAjaxActionLink.Models
     public class UsuarioViewModel
     {
         public Guid IdUsuario { get; set; }
+
+        [Required]
         public string Usuario { get; set; }
+
+        [Required]
         public DateTime FechaAlta { get; set; }
     }
 }
